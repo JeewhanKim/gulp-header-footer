@@ -10,7 +10,7 @@
     "gulp",
     "gulp-html-header-footer"
   ],
-  "author": "awryong",
+  "author": "Jeewhan Kim",
   "dependencies": {
     "event-stream": "^3.1.0",
     "gulp-util": "^3.0.0"
