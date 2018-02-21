@@ -1,6 +1,6 @@
 {
-  "name": "gulp-header-footer",
-  "version": "1.0.0",
+  "name": "gulp-html-header-footer",
+  "version": "0.5.0",
   "description": "Injection plugin for gulp. It simply injects header and footer from source streams.",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,9 @@
   },
   "keywords": [
     "gulp",
-    "gulp-header-footer",
-    "headerfooter"
+    "gulp-html-header-footer"
   ],
-  "author": "Jeewhan Kim",
+  "author": "awryong",
   "dependencies": {
     "event-stream": "^3.1.0",
     "gulp-util": "^3.0.0"

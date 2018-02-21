@@ -7,4 +7,4 @@
 /**
  * export 'gulp-header-footer'
  */
-module.exports = exports = require('./gulp-header-footer');
+module.exports = exports = require('./gulp-html-header-footer');

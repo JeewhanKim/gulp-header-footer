@@ -6,7 +6,7 @@ const gutil = require('gulp-util')
 const PluginError = gutil.PluginError
 
 /**
- * gulp-header-footer
+ * gulp-html-header-footer
  */
 
 module.exports = exports = (source, option) => {
@@ -23,7 +23,7 @@ module.exports = exports = (source, option) => {
 }
 
 const error = (message) => {
-  return new PluginError('gulp-header-footer', message);
+  return new PluginError('gulp-html-header-footer', message);
 }
 
 function handleVinylStream (sources, option) {

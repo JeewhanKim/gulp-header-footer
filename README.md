@@ -1,6 +1,6 @@
 ## Installation
 
-Install `gulp-header-footer` as a development dependency:
+Install `gulp-html-header-footer` as a development dependency:
 
 ```shell
 npm install --save-dev gulp-header-footer
@@ -10,7 +10,7 @@ npm install --save-dev gulp-header-footer
 
 **The target file `src/index.html`:**
 
-`gulp-header-footer` simply injects strings of header & footer from gulp source streams.
+`gulp-html-header-footer` simply injects strings of header & footer from gulp source streams.
 
 Expected Result:
 
@@ -37,7 +37,7 @@ Expected Result:
 ```javascript
 
 gulp.task('html-header-footer', () => {
-  const headerFooter = require('gulp-header-footer')
+  const headerFooter = require('gulp-html-header-footer')
   gulp.src(['./html/**/*.html'])
   .pipe(headerFooter(gulp.src(['./html/**/*.html']), 
     {
@@ -79,7 +79,7 @@ module.exports = () => {
 ```javascript
 
 gulp.task('html-header-footer', () => {
-  const headerFooter = require('gulp-header-footer')
+  const headerFooter = require('gulp-html-header-footer')
   const template = require('./_template.js')
 
   gulp.src(['./html/**/*.html'])
