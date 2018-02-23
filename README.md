@@ -6,6 +6,8 @@ Install `gulp-html-header-footer` as a development dependency:
 npm install --save-dev gulp-header-footer
 ```
 
+** This package is a simplified version of [gulp-inject](https://www.npmjs.com/package/gulp-inject). The difference is that it does not need to update any HTML codes itself. All license behind the logic belong to [MIT](https://spdx.org/licenses/MIT.html) & [the collaborator of `gulp-inject`](https://www.npmjs.com/~joakimbeng) **
+
 ## Basic usage
 
 **The target file `src/index.html`:**
