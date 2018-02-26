@@ -63,14 +63,12 @@ module.exports = {
 /* _header.js */
 module.exports = () => {
   return `
-    ...
+    <!DOCTYPE html><html><head><title>index.html</title></head><body>
   `
 }
 /* _footer.js */
 module.exports = () => {
   return `
-      </main>
-      </div>
       </body>
       </html>
   `
